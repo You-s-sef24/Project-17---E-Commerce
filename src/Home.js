@@ -14,8 +14,6 @@ export default function Home() {
 
     useEffect(() => {
         document.title = 'EzBuy';
-        console.log(currentUser);
-
     }, [currentUser]);
 
     function addToCart(product) {
